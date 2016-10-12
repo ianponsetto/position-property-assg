@@ -11,37 +11,53 @@ nav {
     background-color: gray;
 }
 
+nav a {
+    text-decoration: none;
+    color: yellow;
+}
+
 .navbar1 {
     display: inline-block;
-    margin: 20px;
-    padding-right: 60px;
+    margin: 20px 0 20px 20px;
+    padding-right: 5px;
     text-align: center;
+    border-right: 1px solid black;
 }
 
 .navbar2 {
     display: inline-block;
-    margin: 20px;
-    padding-right: 60px;
+    margin: 20px 0 20px 0;
+    padding-right: 5px;
+    border-right: 1px solid black;
 }
 
 .navbar3 {
     display: inline-block;
-    margin: 20px;
-    padding-right: 60px;
+    margin: 20px 0 20px 0;
+    padding-right: 5px;
 }
 
-.dog {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-}
-
-.cat {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-}
-
-.container {
+.box {
     position: relative;
+    width: 600px;
+    height: 300px;
+    border: 10px dotted green;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.cat .cat-photo img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -50px;
+    left: -50px;
+}
+
+.dog .dog-photo img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    right: -50px;
 }
